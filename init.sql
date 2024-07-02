@@ -1,0 +1,6 @@
+CREATE TABLE test (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    test VARCHAR(255) NOT NULL
+);
+
+INSERT INTO test (test) VALUES ('Hello World');
