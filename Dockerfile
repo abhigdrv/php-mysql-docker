@@ -2,7 +2,7 @@
 FROM nouphet/docker-php4
 
 # Copy the PHP file into the container
-COPY index.php /var/www/html/
+COPY ./app/ /var/www/html/
 
 # Set ServerName to avoid warning
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf

@@ -24,7 +24,7 @@ if (!$db_selected) {
 }
 
 // SQL query
-$sql = "SELECT test FROM test LIMIT 10";
+$sql = "SELECT test FROM test LIMIT 1";
 $result = mysql_query($sql);
 
 // Check if the query was successful
